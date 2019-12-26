@@ -18,6 +18,7 @@ Running the function inv_gui:run/exit will clear the GUI and set the player's in
 #####################################################################################
 
 Commands that start with '#' are NEEDED
+
 Commands that start with '##' are OPTIONAL
 
 Each GUI item should have {inv.item:1b}
