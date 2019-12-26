@@ -1,6 +1,4 @@
-#####################################################################################
-#                               GENERAL INFORMATION                                 #
-#####################################################################################
+# GENERAL INFORMATION
 
 The function inv_gui:run/loop is always ran (through tick.json)
 This function detects players that modified their inventory and checks if taking actions is needed
@@ -13,9 +11,7 @@ Running the function inv_gui:run/exit will clear the GUI and set the player's in
 
 
 
-#####################################################################################
-#                                ADDING NEW PAGES                                   #
-#####################################################################################
+# ADDING NEW PAGES
 
 Commands that start with '#' are NEEDED
 
@@ -41,9 +37,7 @@ This preset however, has to be stored first. Create or update all presets with t
 
 
 
-#####################################################################################
-#                                OPTIONAL FUNCTIONS                                 #   
-#####################################################################################
+# OPTIONAL FUNCTIONS
 
 The function inv_gui:remove_tags
 - This function removes all Inventory[].tag NBT from an inventory and preset
