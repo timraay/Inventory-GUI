@@ -29,6 +29,6 @@ data modify storage inv_gui:inventories RestoredItem set from entity @s[nbt={Inv
 data modify storage inv_gui:inventories RestoredItem set from entity @s[nbt={Inventory:[{Slot:35b}]},nbt=!{Inventory:[{Slot:35b,tag:{inv.item:1b}}]}] Inventory[{Slot:35b}]
 
 data modify storage inv_gui:inventories RestoredItem.Slot set value 0b
-data modify block ~ ~ ~ Items append from storage inv_gui:inventories RestoredItem
+data modify block ~ ~ ~ Items[] set from storage inv_gui:inventories RestoredItem
 
 loot give @s[nbt=!{Inventory:[{Slot:0b},{Slot:1b},{Slot:2b},{Slot:3b},{Slot:4b},{Slot:5b},{Slot:6b},{Slot:7b},{Slot:8b}]}] mine ~ ~ ~
