@@ -8,6 +8,10 @@ You probably want to load in a page once a player joins to make sure their `inv.
 
 Running the function `inv_gui:run/exit` will clear the GUI and set the player's inv.page score to -1
 
+The datapack supports 1.16, though you'll have to add and remove some items in the file /inv_gui/tags/items/all.json, such as:
+- Add all 1.16 items in case you want to use those in your GUI
+- Remove "minecraft:zombie_pigman_spawn_egg" because it no longer exists, __causing it to break and no longer clear items__!
+
 
 
 
